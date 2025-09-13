@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlow - Premium Wireless Headphones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <div class="logo-container">
+            <svg class="logo-svg" width="120" height="50" viewBox="0 0 120 50" xmlns="http://www.w3.org/2000/svg">
+                <!-- Central circle with gradient -->
+                <defs>
+                    <radialGradient id="centerGradient" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.8" />
+                        <stop offset="100%" style="stop-color:#3498db;stop-opacity:0.6" />
+                    </radialGradient>
+                </defs>
+                
+                <!-- Main speaker circle -->
+                <circle cx="25" cy="25" r="12" fill="url(#centerGradient)" stroke="#ffffff" stroke-width="2"/>
+                
+                <!-- Sound wave lines (left side) -->
+                <path d="M12 20 C10 22, 10 26, 12 28" stroke="#ffffff" stroke-width="2" fill="none" stroke-linecap="round"/>
+                <path d="M8 20 C6 22, 6 26, 8 28" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+                <path d="M5 18 C2 21, 2 27, 5 30" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+                
+                <path d="M42 20 C44 22, 44 26, 42 28" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+                <path d="M45 18 C48 21, 48 27, 45 30" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.5"/>
+                
+                <!-- Brand text -->
+                <text x="55" y="20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#ffffff">TechFlow</text>
+                <text x="55" y="35" font-family="Arial, sans-serif" font-size="8" fill="#ffffff" opacity="0.8">AUDIO</text>
+            </svg>
+            <img id="header-img" src="https://via.placeholder.com/50x50/3498db/ffffff?text=TF" alt="TechFlow Logo">
+        </div>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <nav id="nav-bar">
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#how-it-works">How It Works</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <h1>Premium Wireless Headphones</h1>
+            <p>Experience crystal-clear audio with our cutting-edge noise-canceling technology</p>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="Enter your email address" 
+                    required
+                >
+                <input type="submit" id="submit" value="Get Started">
+            </form>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <h2>Why Choose TechFlow?</h2>
+            <div class="features-container">
+                <div class="feature">
+                    <div class="feature-icon">🎵</div>
+                    <h3>Premium Audio Quality</h3>
+                    <p>Experience studio-grade sound with our advanced 40mm drivers and high-resolution audio support.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔇</div>
+                    <h3>Active Noise Canceling</h3>
+                    <p>Block out the world with our industry-leading ANC technology for immersive listening.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔋</div>
+                    <h3>30-Hour Battery Life</h3>
+                    <p>All-day listening with fast charging - get 5 hours of playback with just 15 minutes of charging.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works">
+            <h2>See TechFlow in Action</h2>
+            <div class="video-container">
+                <iframe 
+                    id="video"
+                    width="560" 
+                    height="315" 
+                    src="https://www.youtube.com/embed/ZK-rNEhJIDs?si=v5XjIAoPgAMT0153" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <p>Watch our comprehensive review and see why TechFlow headphones are the perfect choice for audiophiles and casual listeners alike.</p>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing">
+            <h2>Choose Your Plan</h2>
+            <div class="pricing-container">
+                <div class="pricing-card">
+                    <h3>Basic</h3>
+                    <div class="price">$199</div>
+                    <ul>
+                        <li>Everything in Basic</li>
+                        <li>Premium Audio Quality</li>
+                        <li>20-Hour Battery Life</li>
+                        <li>Bluetooth 5.0</li>
+                        <li>1-Year Warranty</li>
+                    </ul>
+                    <button class="select-btn">Select</button>
+                </div>
+                <div class="pricing-card featured">
+                    <h3>Pro</h3>
+                    <div class="price">$299</div>
+                    <ul>
+                        <li>Everything in Pro</li>
+                        <li>Active Noise Canceling</li>
+                        <li>30-Hour Battery Life</li>
+                        <li>Premium Carrying Case</li>
+                        <li>2-Year Warranty</li>
+                    </ul>
+                    <button class="select-btn">Select</button>
+                </div>
+                <div class="pricing-card">
+                    <h3>Elite</h3>
+                    <div class="price">$399</div>
+                    <ul>
+                        <li>Everything in Elite</li>
+                        <li>Hi-Res Audio Certified</li>
+                        <li>Custom EQ Profiles</li>
+                        <li>Wireless Charging Case</li>
+                        <li>3-Year Warranty</li>
+                    </ul>
+                    <button class="select-btn">Select</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 TechFlow. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
