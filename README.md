@@ -1,4 +1,4 @@
-# 🚀 Shibam Banerjee - TechFlow Product Landing Page
+# 🚀 TechFlow Product Landing Page
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -16,7 +16,7 @@ A modern, responsive product landing page for TechFlow Premium Wireless Headphon
 
 ## ✨ Live Demo
 
-🌐 **[View Live Demo](https://your-live-demo-link.com)** *(Update after deployment)*
+🌐 **[View TechFlow Product Landing Page](https://product-landing-page-shibam.vercel.app)**
 
 ## 🚀 Key Features
 
